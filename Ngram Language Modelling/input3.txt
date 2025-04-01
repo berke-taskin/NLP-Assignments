@@ -1,0 +1,32 @@
+lm = ngramLM()  
+lm.trainFromFile("hw02_bilgisayar.txt")
+
+with open("output3.txt", "w", encoding="utf-8") as f:
+
+    print(lm.numOfTokens, file=f)
+    print(lm.sizeOfVocab, file=f)
+    print(lm.numOfSentences, file=f)
+
+    print(lm.sentences, file=f)
+    print(lm.vocab()[:100], file=f)
+    print(lm.bigrams()[:100], file=f)
+
+    print(lm.unigramCount('bir'), file=f)
+    print(lm.unigramCount('bilgisayar'), file=f)
+
+    print(lm.unigramProb('bir'), file=f)
+    print(lm.unigramProb('bilgisayar'), file=f)
+
+    print(lm.bigramCount(('bir','bilgisayar')), file=f)
+    print(lm.bigramCount(('bilgisayar','bir')), file=f)
+
+    print(lm.bigramProb(('bir','bilgisayar')), file=f)
+    print(lm.bigramProb(('bilgisayar','bir')), file=f)
+
+    print(lm.unigramProb_SmoothingUNK('bir'), file=f)
+    print(lm.unigramProb_SmoothingUNK('bilgisayar'), file=f)
+
+    print(lm.bigramProb_SmoothingUNK(('bir','bilgisayar')), file=f)
+    print(lm.bigramProb_SmoothingUNK(('bilgisayar','bir')), file=f)
+
+    print(lm.sentenceProb(['<s>', 'bilgisayar', 'bir', 'dizi', 'mantık', 'işlemini', 'otomatik', 'olarak', 'yapabilen', 'bir', 'makinedir', '.', '</s>']), file=f)
