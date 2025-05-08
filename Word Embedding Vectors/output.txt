@@ -1,0 +1,44 @@
+dict_keys(['fascinating', 'field', 'learning'])
+
+[('interesting', 0.7623067498207092), ('intriguing', 0.7245113253593445), ('enlightening', 0.6644250154495239), ('captivating', 0.6459898352622986), ('facinating', 0.6416683793067932)]
+
+[('fields', 0.5582526326179504), ('fi_eld', 0.5188260078430176), ('Keith_Toogood', 0.49749255180358887), ('Mackenzie_Hoambrecker', 0.49514278769493103), ('Josh_Arauco_kicked', 0.48817265033721924)]
+
+[('teaching', 0.6601868271827698), ('learn', 0.6365275979042053), ('Learning', 0.6208058595657349), ('reteaching', 0.580967366695404), ('learner_centered', 0.5738571286201477)]
+
+NLP is a interesting fields of study and I love reteaching about it
+
+----------------------------------------------------------------------------------------------------
+
+dict_keys(['I', 'am', 'a', 'student', 'studying', 'NLP', 'at', 'Hacettepe', 'University'])
+
+[ 0.07910156 -0.0050354   0.11181641  0.21289062  0.13085938]
+
+[ 0.27734375 -0.1328125   0.00921631  0.02392578  0.00891113]
+
+[ 0.19433594 -0.17089844  0.14746094  0.11425781  0.36523438]
+
+----------------------------------------------------------------------------------------------------
+
+0.64866 -> Swimming is among the sports that are very beneficial for health .
+
+0.63138 -> The water was warm enough for swimming .
+
+0.47738 -> When I saw the cat , it was running very fast .
+
+--------------------------------------------------
+
+0.68122 -> Turkey is among the countries with the most universities .
+
+0.60277 -> The capital of Turkey ( from now on it is Türkiye ) is Ankara .
+
+0.58584 -> I am very happy to have taken the AIN442 and BBM497 courses of Hacettepe University .
+
+--------------------------------------------------
+
+0.68521 -> I forgot my backpack on campus and when I got there it was in the same place .
+
+0.53898 -> If you have a social close friend , you will be social too .
+
+0.53118 -> When I saw the cat , it was running very fast .
+
